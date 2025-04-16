@@ -31,17 +31,18 @@ h2 {
 
 
 .sobre {
-  background-color: #f9f9f9;
-  padding: 40px 0;
-  text-align: center;
+  
+  padding: 60px 20px;
+  max-width: 1200px;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  min-height: 70vh;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 
-.sobre ul {
-  list-style: none;
-  margin-top: 20px;
-  font-size: 1.1rem;
-}
 
 
 .projeto {
@@ -89,25 +90,23 @@ h2 {
 }
 
 
-.pitch h3 {
+.section h3 {
   margin-top: 18px;
   color: #333;
   font-size: 1.1rem;
 }
 
-.pitch p {
+.section p {
   color: #555;
   line-height: 1.6;
   font-size: 0.95rem;
 }
 
-.midia {
-  margin-top: 35px;
-}
+
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 55.55%;
   height: 0;
   overflow: hidden;
   border-radius: 10px;
@@ -122,27 +121,6 @@ h2 {
   height: 100%;
   border-radius: 10px;
 }
-
-.relatorio {
-  margin-top: 35px;
-  text-align: center;
-}
-
-.btn-relatorio {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #a50f0f;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background-color 0.3s;
-  font-size: 0.95rem;
-}
-
-.btn-relatorio:hover {
-  background-color: #a50f0f;
-}
-
 
 .contato {
   display: flex;

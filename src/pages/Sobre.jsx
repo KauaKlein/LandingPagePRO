@@ -6,11 +6,11 @@ export default function Sobre() {
         <h3>Por que foi criado</h3>
         <p>Para criar uma vitrine digital</p>
         <h3>Tecnologias usadas</h3>
-        <ul>
-          <li>º React</li>
-          <li>º CSS</li>
-          <li>º JavaScript</li>
-        </ul>
+        
+          <li>React</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        
       </div>
     );
   }

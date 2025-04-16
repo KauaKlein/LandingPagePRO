@@ -34,7 +34,7 @@ export default function Projeto() {
         <h2>Nosso Projeto Incrível</h2>
        
 
-        <section className="pitch">
+        <section className="section">
           <h3>💡 O Problema</h3>
           <p>
             Muitos estudantes enfrentam dificuldades em organizar seus estudos e acompanhar o progresso acadêmico de forma eficiente.
