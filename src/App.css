@@ -1,15 +1,15 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+body 
+{
+  
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
   color: #020202;
-  line-height: 1.6;
 }
 
 a {
@@ -76,7 +76,7 @@ h2 {
   align-items: center;
   margin-top: 30px;
   padding: 10px 20px;
-  background-color: #444;
+  background-color: #333;
   color: white;
   border: none;
   border-radius: 6px;
@@ -86,7 +86,7 @@ h2 {
 }
 
 .btn-pdf:hover {
-  background-color: #2c2929;
+  background-color: #a50f0f;
 }
 
 
@@ -122,23 +122,6 @@ h2 {
   border-radius: 10px;
 }
 
-.contato {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 160px 60px;
-  background-color: #f9f9f9; 
-}
-
-.contato-container {
-  max-width: 600px;
-  width: 100%;
-  background-color: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
 
 h2 {
   color: #333;
@@ -153,13 +136,12 @@ p {
 }
 
 
-
 .contato {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 60px 20px;
+  padding: 160px 60px;
   background-color: #f9f9f9;
   min-height: 90vh;
   box-sizing: border-box;
@@ -169,9 +151,10 @@ p {
   max-width: 700px;
   width: 90%;
   background: white;
+  text-align: center;
   border-radius: 10px;
   padding: 30px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   display: block;
   align-items: center;
@@ -221,3 +204,25 @@ p {
   font-size: 1.5rem;
 }
 
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.home-content {
+  max-width: 500px;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #444;
+}

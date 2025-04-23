@@ -9,9 +9,9 @@ import './App.css';
 
 function App() {
   return (
+   
     <Router>
-      <Navbar />
-
+      <Navbar/>
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -21,6 +21,7 @@ function App() {
         </Routes>
       </div>
     </Router>
+     
   );
 }
 
