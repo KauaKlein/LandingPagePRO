@@ -10,7 +10,6 @@ export default function Sobre() {
           <li>React</li>
           <li>CSS</li>
           <li>JavaScript</li>
-        
       </div>
     );
   }
