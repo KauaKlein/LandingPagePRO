@@ -1,4 +1,8 @@
-
+html, body {
+    overflow: hidden;
+    margin: 0;  
+    height: 100%; 
+  }
   
 .home 
 {
@@ -10,10 +14,12 @@
     min-height: 50vh;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
+    
 }
   
 .home-text h1 
 {
+    overflow: hidden;
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
@@ -26,9 +32,10 @@
   
 .home-img img 
 {
+    padding-top: 20px ;
     width: 100%;
-    max-width: 500px;
-    border-radius: 12px;
+    max-width: 400px;
+    border-radius: 8px;
 }
   
  

@@ -31,23 +31,18 @@ export default function Projeto() {
         className={`projeto-container ${exportando ? 'exportando' : ''}`} 
         ref={pdfRef}
       >
-        <h2>Nosso Projeto Incrível</h2>
+        <h1>Landing Page</h1>
        
 
         <section className="section">
-          <h3>💡 O Problema</h3>
+          <h3>Transformando Ideias em Soluções Digitais😎</h3>
           <p>
-            Muitos estudantes enfrentam dificuldades em organizar seus estudos e acompanhar o progresso acadêmico de forma eficiente.
-          </p>
-
-          <h3>🚀 Nossa Solução</h3>
-          <p>
-            Criamos uma plataforma intuitiva que permite aos alunos montar cronogramas, receber lembretes e visualizar seu desempenho em tempo real.
+          Impulsionamos a inovação com tecnologia de ponta, criando experiências digitais que conectam pessoas e negócios.
           </p>
         </section>
 
         <section className="midia">
-          <h3>🎥 Protótipo em vídeo</h3>
+          <h3>Protótipo em vídeo🎞️</h3>
           <div className="video-container">
             <iframe 
               width="100%" 
