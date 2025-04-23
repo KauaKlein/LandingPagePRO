@@ -10,57 +10,32 @@ JavaScript (ES6+)
 
 React
 
-📁 Estrutura do projeto
-pgsql
-Copiar
-Editar
-/public
-/src
-  ├── components
-  ├── pages
-  ├── App.js
-  └── index.js
-README.md
-package.json
+
 🖥️ Como rodar o projeto localmente
 1. ⚙️ Pré-requisitos
-Antes de tudo, é necessário ter o Node.js e o npm (ou yarn) instalados na sua máquina:
+Antes de tudo, é necessário ter o Node.js e o npm instalados na sua máquina:
 
-Baixe e instale o Node.js: https://nodejs.org/
+Baixe o Node.js
 
-Verifique se está instalado:
-
-bash
-Copiar
-Editar
-node -v
-npm -v
-2. 📦 Criando o projeto com React (se ainda não estiver criado)
+2. 📦 Criando o projeto com React
 Se ainda não criou o projeto, use o comando:
 
-bash
-Copiar
-Editar
-npx create-react-app meu-portfolio
-cd meu-portfolio
+npx create-react-app LandingPagePro
+cd LandingPagePro
 3. ▶️ Rodando o projeto
 Se o projeto já estiver clonado, siga os passos abaixo:
 
-bash
-Copiar
-Editar
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/kaua.klein/LandingPagePro.git
 
 # Acesse a pasta
-cd seu-repositorio
+cd LandingPagePro
 
 # Instale as dependências
-npm install
+npm i, nodemon
 
 # Inicie o projeto
 npm start
-O React iniciará um servidor local e abrirá o projeto no navegador, normalmente em http://localhost:3000.
 
 📸 Funcionalidades do portfólio
 Página inicial com apresentação
