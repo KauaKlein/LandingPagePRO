@@ -10,6 +10,7 @@ JavaScript (ES6+)
 
 React
 
+<<<<<<< HEAD
 📁 Estrutura do projeto
 pgsql
 Copiar
@@ -61,6 +62,34 @@ npm install
 # Inicie o projeto
 npm start
 O React iniciará um servidor local e abrirá o projeto no navegador, normalmente em http://localhost:3000.
+=======
+
+🖥️ Como rodar o projeto localmente
+1. ⚙️ Pré-requisitos
+Antes de tudo, é necessário ter o Node.js e o npm instalados na sua máquina:
+
+Baixe o Node.js
+
+2. 📦 Criando o projeto com React
+Se ainda não criou o projeto, use o comando:
+
+npx create-react-app LandingPagePro
+cd LandingPagePro
+3. ▶️ Rodando o projeto
+Se o projeto já estiver clonado, siga os passos abaixo:
+
+# Clone o repositório
+git clone https://github.com/kaua.klein/LandingPagePro.git
+
+# Acesse a pasta
+cd LandingPagePro
+
+# Instale as dependências
+npm i, nodemon
+
+# Inicie o projeto
+npm start
+>>>>>>> 6d28e3038d3acf255c17c2129235f273d005f5a0
 
 📸 Funcionalidades do portfólio
 Página inicial com apresentação
